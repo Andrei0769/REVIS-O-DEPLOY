@@ -1,0 +1,51 @@
+/* src\pages\Lista\styles.css */
+
+
+/* Tema verde moderno para futebol - tela de lista de usuários */
+
+.pagina-lista-usuarios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 32px;
+    background: linear-gradient(135deg, #229954 60%, #145a32 100%);
+}
+  
+.pagina-lista-usuarios .container {
+    background: linear-gradient(120deg, #27ae60 60%, #145a32 100%);
+    padding: 32px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 20px rgba(34, 153, 84, 0.4);
+    width: 90%;
+    max-width: 500px;
+    max-height: 80vh;
+    overflow-y: auto;
+    text-align: center;
+    border-radius: 18px;
+    border: 1.5px solid #229954;
+}
+  
+.pagina-lista-usuarios .container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 0 2px 8px #229954;
+}
+  
+.pagina-lista-usuarios .container .link-voltar {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    color: #229954;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: bold;
+}
+  
+.pagina-lista-usuarios .container .link-voltar:hover {
+    color: #145a32;
+    text-decoration: underline;
+}

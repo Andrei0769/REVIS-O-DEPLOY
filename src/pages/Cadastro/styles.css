@@ -1,0 +1,12 @@
+/* src\pages\Cadastro\styles.css */
+
+/* Tema verde moderno para futebol - tela de cadastro */
+
+.pagina-cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 32px;
+    background: linear-gradient(135deg, #f0f0f0 60%, #ffffff 100%);
+}
